@@ -21,6 +21,7 @@ import java.util.List;
 public class Demo {
 
         public static void main(String[] args) {
+
             // 1、全局配置
             GlobalConfig globalConfig = new GlobalConfig();//构建全局配置对象
             String projectPath = System.getProperty("/src/main/java");// 获取当前用户的目录
